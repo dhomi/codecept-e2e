@@ -15,6 +15,10 @@ Install dependencies:
 ```
 npm i
 ```
+## Usage
+```
+npm run ui
+```
 
 ## Contents
 
@@ -25,4 +29,5 @@ npm i
 * `presettings.ts` - placeholder for bootstrap / teardown scripts
 
 
+# by:
 * Beni Dhomi
