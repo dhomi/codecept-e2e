@@ -1,16 +1,18 @@
 {
-  "name": "typescript-boilerplate",
-  "version": "1.0.0",
+  "name": "e2e-tests",
+  "version": "1.1.0",
   "main": "index.js",
-  "author": "Vorobeyko <sashavorobey95@gmail.com>",
+  "author": "Beni Dhomi <beni@dhomi.nl>",
   "license": "MIT",
   "scripts": {
+    "ui": "codecept-ui --app",
     "run:tests": "codeceptjs run",
     "def": "codeceptjs def"
   },
   "dependencies": {
     "codeceptjs": "^3.0.0",
-    "playwright": "^1.5.1",
+    "@codeceptjs/ui": "^0.4.6",
+    "playwright": "^1.16.3",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   }

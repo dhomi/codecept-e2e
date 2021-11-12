@@ -7,12 +7,12 @@ const { bootstrap } = require('./presettings.ts');
 setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
-  tests: './tests/**_test.ts',
+  tests: './tests/**.spec.ts',
   output: './output',
   helpers: {
     Playwright: {
-      url: 'https://github.com',
-      show: false,
+      url: 'https://reqres.in/',
+      show: true,
       windowSize: '1200x900',
       browser: 'chromium'
     },
@@ -25,7 +25,7 @@ exports.config = {
     loginPage: './loginPage.ts',
     homePage: './homePage.ts'
   },
-  name: 'typescript-boilerplate',
+  name: 'typescript-e2e-tests',
   plugins: {
     retryFailedStep: {
       enabled: true

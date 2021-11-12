@@ -1,4 +1,4 @@
-Feature('Typescript Example');
+Feature('Basic Example');
 
 Scenario('test something', async ({ I, loginPage, homePage }) => {
   homePage.goToHome()
