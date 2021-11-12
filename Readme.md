@@ -5,7 +5,7 @@ This is a boilerplate project which includes CodeceptJS + Playwright setup using
 Clone this repository to start:
 
 ```
-git clone https://github.com/codeceptjs/typescript-boilerplate .
+git clone https://github.com/dhomi/codecept-e2e.git .
 ```
 
 > Remove `.git` folder as you won't need it anymore
@@ -24,3 +24,5 @@ npm i
 * `CustomHelper` - a custom helper
 * `presettings.ts` - placeholder for bootstrap / teardown scripts
 
+
+* Beni Dhomi
